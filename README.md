@@ -1,50 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio with Bootstrap
 
-> One paragraph statement about the project.
+> Building a Portfolio to show what I'm truly capable of as a developer, as well as showing my future recruiters and hiring managers to get an idea of what I can bring to their teams.
 
-![screenshot](./app_screenshot.png)
+
+
+![screenshot](./boot-strap.png)
 
 Additional description about the project and its features.
+
+## Live 
+[Click here to see live](https://tchilo.github.io/Bootstrap-project3/)
 
 ## Built With
 
 - Major languages
 - Bootstrap
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**To get a copy of this repo into your local machine run the following command:**
+```
+git clone git@github.com:Tchilo/Bootstrap-project3.git 
+cd Bootstrap-project3
+in visual studio code you can click the go live button to view it live in the browser.
+```
 
+## Author
 
-To get a local copy up and running follow these simple example steps.
+👤 **Taro Chilongoshi**
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Taro**
-
-- GitHub: [@githubhandle](https://github.com/Tchilo)
+- GitHub: [@Tchilo](https://github.com/Tchilo)
 
 
 
@@ -58,11 +46,7 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
