@@ -11,17 +11,19 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <nav id="navbar-scroll" class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container ">
       <!-- <a href="#" class="navbar-brand">Welcome</a> -->
       <ul class="navbar-nav m-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
-  <main>
+  <main data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-offset="0" tabindex="0">
+
+    <!-- Headline section -->
     <div class="col bg-image" style="background-image: url('img/Header-llustration-desktop@2x.png'); height: 100vh; background-position: center;
     background-size: cover;">
       <h1 class="mt-5 mb-3 text-center">Hey there. I'm Taro <br>
@@ -44,101 +46,105 @@
       </div>
       <div class="text-center"><img src="img/Disabled.png" alt="#"></div>
     </div>
-    <div class="container text-center mt-5">
-      <h2 class="display-4">My Recent Works</h2>
-    </div>
-<div class="container col">
-  <div class="row m-auto">
-    <div class="card" style="width: 27rem;">
-      <img src="img/topcard.png" class="card-img-top" alt="#">
-      <div class="card-body">
-        <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
-        <ul class="list-unstyled d-flex">
-          <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">html</span></li>
-        </ul>
-        <a href="#" class="btn btn-success">See Project</a>
-      </div>
-    </div>
-    <div class="card" style="width: 27rem;">
-      <img src="img/topcard.png" class="card-img-top" alt="#">
-      <div class="card-body">
-        <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
-        <ul class="list-unstyled d-flex">
-          <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">html</span></li>
-        </ul>
-        <a href="#" class="btn btn-success">See Project</a>
-      </div>
-    </div>
-    <div class="card" style="width: 27rem;">
-      <img src="img/topcard.png" class="card-img-top" alt="#">
-      <div class="card-body">
-        <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
-        <ul class="list-unstyled d-flex">
-          <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
-          <li> <span class="badge bg-success mr-2 p-2">html</span></li>
-        </ul>
-        <a href="#" class="btn btn-success">See Project</a>
-      </div>
-    </div>
-    </div>
-    <div class="row justify-content-space-between">
-      <div class="card" style="width: 27rem;">
-        <img src="img/topcard.png" class="card-img-top" alt="#">
-        <div class="card-body">
-          <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-unstyled d-flex">
-            <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">html</span></li>
-          </ul>
-          <a href="#" class="btn btn-success">See Project</a>
-        </div>
-      </div>
-      <div class="card" style="width: 27rem;">
-        <img src="img/topcard.png" class="card-img-top" alt="#">
-        <div class="card-body">
-          <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-unstyled d-flex">
-            <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">html</span></li>
-          </ul>
-          <a href="#" class="btn btn-success">See Project</a>
-        </div>
-      </div>
-      <div class="card" style="width: 27rem;">
-        <img src="img/topcard.png" class="card-img-top" alt="#">
-        <div class="card-body">
-          <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-unstyled d-flex">
-            <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
-            <li> <span class="badge bg-success mr-2 p-2">html</span></li>
-          </ul>
-          <a href="#" class="btn btn-success">See Project</a>
-        </div>
-      </div>
-    </div>
-    </div>
 
+    <!-- Profile section -->
+    <div class="container text-center mt-5">
+      <h2 class="display-4" id="portfolio">My Recent Works</h2>
+    </div>
+    <div class="container col">
+      <div class="row m-auto">
+        <div class="card" style="width: 27rem;">
+          <img src="img/topcard.png" class="card-img-top" alt="#">
+          <div class="card-body">
+            <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
+            <ul class="list-unstyled d-flex">
+              <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">html</span></li>
+            </ul>
+            <a href="#" class="btn btn-success">See Project</a>
+          </div>
+        </div>
+        <div class="card" style="width: 27rem;">
+          <img src="img/topcard.png" class="card-img-top" alt="#">
+          <div class="card-body">
+            <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
+            <ul class="list-unstyled d-flex">
+              <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">html</span></li>
+            </ul>
+            <a href="#" class="btn btn-success">See Project</a>
+          </div>
+        </div>
+        <div class="card" style="width: 27rem;">
+          <img src="img/topcard.png" class="card-img-top" alt="#">
+          <div class="card-body">
+            <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
+            <ul class="list-unstyled d-flex">
+              <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
+              <li> <span class="badge bg-success mr-2 p-2">html</span></li>
+            </ul>
+            <a href="#" class="btn btn-success">See Project</a>
+          </div>
+        </div>
+        </div>
+        <div class="row justify-content-space-between">
+          <div class="card" style="width: 27rem;">
+            <img src="img/topcard.png" class="card-img-top" alt="#">
+            <div class="card-body">
+              <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
+              <ul class="list-unstyled d-flex">
+                <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">html</span></li>
+              </ul>
+              <a href="#" class="btn btn-success">See Project</a>
+            </div>
+          </div>
+          <div class="card" style="width: 27rem;">
+            <img src="img/topcard.png" class="card-img-top" alt="#">
+            <div class="card-body">
+              <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
+              <ul class="list-unstyled d-flex">
+                <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">html</span></li>
+              </ul>
+              <a href="#" class="btn btn-success">See Project</a>
+            </div>
+          </div>
+          <div class="card" style="width: 27rem;">
+            <img src="img/topcard.png" class="card-img-top" alt="#">
+            <div class="card-body">
+              <h4 class="card-title">Multi-Post Stories Gain+Glory</h4>
+              <ul class="list-unstyled d-flex">
+                <li> <span class="badge bg-success mr-2 p-2">Ruby on rails</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">Css</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">JavaScript</span></li>
+                <li> <span class="badge bg-success mr-2 p-2">html</span></li>
+              </ul>
+              <a href="#" class="btn btn-success">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About section -->
       <div class="container col bg-image text-center my-5" style="background-image: url('img/illustration2.svg'), url('img/illustration.svg'); background-position: top right, bottom left;
 background-repeat: no-repeat, no-repeat;">
-        <h2 class="display-4 text-center">About Me</h2>
+        <h2 class="display-4 text-center" id="about">About Me</h2>
         <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
           don’t hestiate to contact me.</p>
         <a href="#" class="btn btn-success">Get My Resume</a>
       </div>
+
       <div class="container col-10">
         <div class="row justify-content-space-between">
           <div class="mr-3">
@@ -188,6 +194,7 @@ background-repeat: no-repeat, no-repeat;">
         </div>
       </div>
 
+      <!-- Contact section -->
       <div class="container mt-5 bg-image" style="background-image:
       url('img/footing-bg-1-desktop.svg'),
       url('img/footing-bg-2-desktop.svg'),
@@ -196,14 +203,14 @@ background-repeat: no-repeat, no-repeat;">
     background-size: 10%;">
         <div class="row">
           <div class="col form-group">
-        <h2 class="display-5">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+          <h2 class="display-5" id="contact">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
           </div>
-        <form class="col">
-          <input class="form-control mb-1" type="text" placeholder="Full names">
-          <input class="form-control mb-1" type="password" placeholder="Email adress">
-          <textarea id="message" rows="3" class="form-control" placeholder="Message">
-        </form>
-      </div>
+          <form class="col">
+            <input class="form-control mb-1" type="text" placeholder="Full names">
+            <input class="form-control mb-1" type="password" placeholder="Email adress">
+            <textarea id="message" rows="3" class="form-control" placeholder="Message">
+          </form>
+        </div>
       </div>
 
 
